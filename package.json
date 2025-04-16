@@ -1,0 +1,11 @@
+{
+  "name": "Revisao-DevClub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "nodemon": "^3.1.9",
+    "sucrase": "^3.35.0"
+  }
+}
