@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Container com caixas lado a lado */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  /* Rodapé */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+  }
+  
+  /* RESPONSIVIDADE */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  }
+  
